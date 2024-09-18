@@ -1,3 +1,8 @@
-import turtle
+from turtle import *
 
-turtle.forward(100)
+def skibidi(fanum):
+    for i in range(400):
+        forward(fanum)
+        left(90)
+
+skibidi(80)
