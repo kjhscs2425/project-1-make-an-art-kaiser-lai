@@ -1,12 +1,9 @@
-from turtle import *
+from turtle import*
 
-def skib(fanum):
-    left(45)
-    forward(fanum)
-  
+def po(gee, hh):
+    nack = gee + hh
+    forward(nack)
+    right(90)
+po(gee=100,hh = 90)
 
-skib(40)
-skib(40)
-left(90)
-skib(40)
-skib(40)
+exitonclick()
