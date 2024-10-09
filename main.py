@@ -1,7 +1,11 @@
 from turtle import *
+#this changes the line thickness of the flower
+x = 1
+
+
 speed(100)
 for i in range(56):
-    pensize(0.4)
+    pensize(x)
     forward(i)
     right(55)
 
@@ -29,7 +33,7 @@ goto(60,90)
 down()
 
 for i in range(56):
-    pensize(0.4)
+    pensize(x)
     forward(i)
     right(55)
 right(55)
@@ -42,19 +46,19 @@ goto(85,-5)
 down()
 
 for i in range(42):
-    pensize(0.4)
+    pensize(x)
     forward(i)
     right(55)
 
 up()
-goto(-20,-160)
+goto(-70,-50)
 down()
 
-right(180)
+setheading(0)
 
 def po(gee, hh):
     nack = gee + hh
-    left(90)
+    
     forward(nack)
     right(120)
     forward(nack)
